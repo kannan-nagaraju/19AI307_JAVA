@@ -1,20 +1,26 @@
 # Ex.No:1(B) VARIABLES AND OPERATOR
 
 ## AIM:
-To write a Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true. [Class name is ‘Demo’]
+The values of variables 'a' and 'b' are 6 and 8 respectively, write a Java programs to swap the values of the two variables by without using a third variable. After swapping the values should be a= 8 b=6
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Import the necessary package 'java.util'
-3.	Define a class named 'Demo'
-4.	Implement the main method
-5.	Create a new instance of the 'Scanner' class named 'sc' to read user input
-6.	Read an integer 'a' from the user using the 'nextInt' method of 'sc'
-7.	Read another integer 'b' from the user using the 'nextInt' method of 'sc'
-8.	Check if 'a' is less than 50 or if 'a' is less than 'b'
-a)	If the condition is true, print "true" using the 'print' method of 'System.out'
-b)	If the condition is false, print "false" using the 'print' method of 'System.out'
-9.	End
+1.	Start
+
+2. Declare two integer variables a and b
+
+3. Initialize a = 6, b = 8
+
+4. To swap without a third variable:
+
+   a = a + b
+
+   b = a - b
+
+   a = a - b
+
+5. Print the values of a and b after swapping
+
+6. End
 
 
 
@@ -24,22 +30,30 @@ b)	If the condition is false, print "false" using the 'print' method of 'System.
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: BALACHANDRAN S
+RegisterNumber: 212222100008
 */
 ```
 
 ## Sourcecode.java:
 
+```
+public class Demo
+{
+    public static void main(String[] args){
+    int a = 6;
+    int b = 8;
+    System.out.println("After swapping a= "+b +" b="+a);
+    }
+}
 
-
-
-
-
+```
 
 ## OUTPUT:
+After swapping a = 8  b = 6
 
 
 
 ## RESULT:
-Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
+The values of a and b have been successfully swapped without using a third variable.
+
