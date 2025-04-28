@@ -30,8 +30,8 @@ The values of variables 'a' and 'b' are 6 and 8 respectively, write a Java progr
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: BALACHANDRAN S
-RegisterNumber: 212222100008
+Developed by: KANNAN N
+RegisterNumber: 212223230097
 */
 ```
 
