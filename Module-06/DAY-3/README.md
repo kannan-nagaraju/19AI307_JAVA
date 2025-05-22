@@ -22,8 +22,8 @@
  ```
 /*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: Divya.A
-RegisterNumber: 212222230034
+Developed by:KANNAN N
+RegisterNumber: 212223230097
 */
 ```
 
