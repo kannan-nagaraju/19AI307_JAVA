@@ -19,14 +19,27 @@
  ```
 /*
 Program to implement a Buffer Input/Output Stream using Java
-Developed by: 
-RegisterNumber:  
+Developed by:KANNAN N
+RegisterNumber: 212223230097 
 */
 ```
 
 ## Sourcecode.java:
 
-
+```     
+ FileOutputStream fout=new FileOutputStream("sample.txt");    
+ BufferedOutputStream bout=new BufferedOutputStream(fout);  
+ Scanner sc=new Scanner(System.in);
+ String s=sc.nextLine();    
+ int index=sc.nextInt();
+ int length=sc.nextInt();
+ byte b[]=s.getBytes();    
+ System.out.println("Original Data:" +s);
+ System.out.print("After Skipping:");
+ bout.write(b,index,length);    
+ bout.close();    
+ fout.close();    
+```       
 
 
 
@@ -34,6 +47,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/02874d33-8f87-43ee-b601-2ab089282872)
 
 
 ## RESULT:
