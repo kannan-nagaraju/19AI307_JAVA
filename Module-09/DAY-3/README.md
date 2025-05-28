@@ -17,7 +17,7 @@
 /*
 Program to implement a String Reader using Java
 Developed by:KANNAN N
-RegisterNumber: 2122232300097
+RegisterNumber: 212223230097
 */
 ```
 
